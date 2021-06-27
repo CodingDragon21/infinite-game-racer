@@ -33,9 +33,13 @@ function preload() {
   c5 = loadImage("car5.svg");
   movingCoin = loadImage("coin.svg");
   
-  horn = loadsound("CarHorn.wav");
-  vroom = loadsound("CarVroom.wav")
-  coinCollect = loadsound("CoinCollect.wav")
+   //horn = loadSound("CarHorn.wav");
+  //vroom = loadSound("CarVroom.wav")
+
+  //dom library was missing , i added it and now its working fine, you cxan add rest all sounds to your game
+  //also covert files to mp3, link is given below
+  // https://cloudconvert.com/wav-to-mp3
+  coinCollect = loadSound("CoinCollect.mp3")
 
 
   
